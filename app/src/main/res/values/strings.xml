@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="s_temp">
+        <item name="celsius">CELSIUS</item>
+        <item name="kelvin">KELVIN</item>
+        <item name="fahrenheit">FAHRENHEIT</item>
+
+    </string-array>
+
+    <string-array name="s_time">
+        <item name="hour">HOUR</item>
+        <item name="second">SECOND</item>
+        <item name="MINUTE">MINUTE</item>
+
+    </string-array>
+
+    <string-array name="s_weight">
+        <item name="kilogram">KILOGRAM</item>
+        <item name="gram">GRAM</item>
+        <item name="MILLIGRAM">MILLIGRAM</item>
+
+    </string-array>
+
+    <string-array name="s_length">
+        <item name="kilometer">KILOMETER</item>
+        <item name="meter">METER</item>
+        <item name="centimeter">CENTIMETER</item>
+
+    </string-array>
+
+
+    <string-array name="s_volume">
+        <item name="liter">LITER</item>
+        <item name="cubicmeter">CUBIC METER</item>
+        <item name="milliliter">MILLILITER</item>
+
+
+    </string-array>
+
+    <string-array name="s_area">
+        <item name="square meter">SQUARE METER</item>
+        <item name="square kilometer">SQUARE KILOMETER</item>
+        <item name="square foot">SQUARE FOOT</item>
+
+
+    </string-array>
+    <string-array name="s_pressure">
+        <item name="pascal">PASCAL</item>
+        <item name="bar">BAR</item>
+        <item name="atmosphere">ATMOSPHERE</item>
+
+
+    </string-array>
+
+    <string-array name="s_frequency">
+        <item name="hertz">HERTZ</item>
+        <item name="kilohertz">KILOHERTZ</item>
+        <item name="megahertz">MEGAHERTZ</item>
+
+
+    </string-array>
+    <string-array name="s_speed">
+        <item name="meter per second">METER PER SECOND</item>
+        <item name="kilometer per second">KILOMETER PER HOUR</item>
+        <item name="foot per second">FOOT PER SECOND</item>
+
+
+    </string-array>
+    <string name="help_text">We are sorry if there is a glitch .You can Contact us and help us to solve all the bugs through email and Twitter.
+    Email:mayanksharma040404@gmail.com</string>
+    <string name="about_text">This is a unit conversion app.Its easy to use and simple.You can use it in your daily life for basic uses also.</string>
+
+
+</resources>

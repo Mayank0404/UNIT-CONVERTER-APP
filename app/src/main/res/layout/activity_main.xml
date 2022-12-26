@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FACACA"
+    android:weightSum="4"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar_main"
+        android:background="#93CCE6">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="80dp"
+      app:cardCornerRadius="5dp"
+      app:cardBackgroundColor="#FACACA"
+      android:layout_weight="1">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:textSize="30sp"
+          android:textStyle="bold"
+          android:textColor="@color/black"
+          android:layout_gravity="bottom"
+          android:text="UNIT CONVERTER"
+          android:textAlignment="center">
+
+      </TextView>
+
+  </androidx.cardview.widget.CardView>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     android:layout_weight="1"
+     android:orientation="horizontal"
+     android:weightSum="3">
+
+
+
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:id="@+id/cv_temp"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="5dp"
+         app:cardCornerRadius="10dp">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:src="@drawable/temp"/>
+
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="TEMPERATURE"
+             android:textAlignment="center"
+             android:layout_gravity="bottom"
+             android:textSize="14sp"
+             android:textStyle="bold"/>
+
+
+
+     </androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:id="@+id/cv_length"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="5dp"
+         app:cardCornerRadius="10dp">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:src="@drawable/rulee"/>
+
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="LENGTH"
+             android:textAlignment="center"
+             android:layout_gravity="bottom"
+             android:textSize="14sp"
+             android:textStyle="bold"/>
+
+
+
+     </androidx.cardview.widget.CardView>
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:id="@+id/cv_pressure"
+         android:layout_marginBottom="5dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="5dp"
+         app:cardCornerRadius="10dp">
+
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:src="@drawable/pressure" />
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="PRESSURE"
+             android:textAlignment="center"
+             android:layout_gravity="bottom"
+             android:textSize="14sp"
+             android:textStyle="bold"/>
+
+
+
+     </androidx.cardview.widget.CardView>
+
+
+
+ </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:layout_weight="1"
+      android:orientation="horizontal"
+      android:weightSum="3">
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/cv_volume"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginTop="5dp"
+          app:cardCornerRadius="10dp">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:src="@drawable/volume1"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="VOLUME"
+              android:textAlignment="center"
+              android:layout_gravity="bottom"
+              android:textSize="14sp"
+              android:textStyle="bold"/>
+
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/cv_time"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginTop="5dp"
+          app:cardCornerRadius="10dp">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:src="@drawable/time"/>
+
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="TIME"
+              android:textAlignment="center"
+              android:layout_gravity="bottom"
+              android:textSize="14sp"
+              android:textStyle="bold"/>
+
+
+
+      </androidx.cardview.widget.CardView>
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/cv_freq"
+          android:layout_marginBottom="5dp"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"
+          android:layout_marginTop="5dp"
+          app:cardCornerRadius="10dp">
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+
+              android:src="@drawable/frequency"/>
+
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="FREQUENCY"
+              android:textAlignment="center"
+              android:layout_gravity="bottom"
+              android:textSize="14sp"
+              android:textStyle="bold"/>
+
+
+      </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+  </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cv_area"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/area"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AREA"
+                android:textAlignment="center"
+                android:layout_gravity="bottom"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cv_weight"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/weight"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MASS"
+                android:textAlignment="center"
+                android:layout_gravity="bottom"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/cv_speed"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:src="@drawable/speed"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SPEED"
+                android:textAlignment="center"
+                android:layout_gravity="bottom"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
